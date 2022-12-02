@@ -11,12 +11,12 @@ public class Day1
             .ToList();
     }
 
-    public int Part1()
+    public static int Part1()
     {
         return GetTotals().Max();
     }
 
-    public int Part2()
+    public static int Part2()
     {
         var totals = GetTotals();
 
